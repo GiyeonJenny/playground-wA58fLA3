@@ -1,24 +1,68 @@
-# Welcome!
-
-This Java template lets you get started quickly with a simple one-page playground.
-
-```java runnable
 // { autofold
 public class Main {
 
 public static void main(String[] args) {
 // }
+//first time learning Java language
 
 String message = "Hello World!";
 System.out.println(message);
+
+
+//2.Print the sum of two numbers
+
+int num1= 74;
+int num2 = 36;
+int sum = num1 + num2;
+
+System.out.println(sum);
+
+//divide two numbers and print on the screen
+
+int a = 50;
+int b = 3;
+
+int divide = a/b;
+
+System.out.println(divide);
+
+//4. print the result of the following operations.
+// a.-5 + 8 * 6; b. (55+9)%9; c. 20+ -3*5/8; d. 5+15/3*2-8%3
+int number1 = -5,
+number2 = 8,
+number3 = 6,
+number4 = 55,
+number5 = 9,
+number6 = 20,
+number7 = -3,
+number8 = 5,
+number9 = 15,
+number10 = 3,
+number11 = 2;
+
+int Qa = number1 + number2 * number3;
+int Qb = (number4 + number5) % number5;
+int Qc = number6 + number7 * number8 / number2;
+int Qd = number8 + number9 / number10 * number11 - number2 % number10;
+
+System.out.println(Qa);
+System.out.println(Qb);
+System.out.println(Qc);
+System.out.println(Qd);
+
+//5. takes two numbers as input and display the product of two number
+
+int input1 = 25,
+input2 = 5;
+int times = input1 * input2;
+
+System.out.println(input1 + " x " + input2 + " = "+ times); 
+
+//6.print the sum (addition), multiply, subract, divide and remainder of two number
+
 
 //{ autofold
 }
 
 }
 //}
-```
-
-# Advanced usage
-
-If you want a more complex example (external libraries, viewers...), use the [Advanced Java template](https://tech.io/select-repo/385)
