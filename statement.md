@@ -83,7 +83,7 @@ for( int a = 0; a < 11; a++)
 {
     int total = num * a;
     
-    System.out.println( " num + " * " + a + " = " + total);
+    System.out.println( num + " * " + a + " = " + total);
 
 }
 //{ autofold
