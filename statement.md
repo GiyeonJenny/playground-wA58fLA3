@@ -58,7 +58,21 @@ int times = input1 * input2;
 
 System.out.println(input1 + " x " + input2 + " = "+ times); 
 
-//6.print the sum (addition), multiply, subract, divide and remainder of two number
+//6.print the sum (addition), multiply, subract, divide and remainder of two number, input first number: 125, second input : 24
+
+int input1 = 125;
+int input2 = 24;
+int sum = input1 + input2;
+int sub = input1 - input2;
+int time = input1 * input2;
+int div = input1 / input2;
+int mod = input1 % input2;
+
+System.out.println(input1 + " + " + input2 + " = " + sum);
+System.out.println(input1 + " - " + input2 + " = " + sub);
+System.out.println(input1 + " * " + input2 + " = " + time);
+System.out.println(input1 + " / " + input2 + " = " + div);
+System.out.println(input1 + " % " + input2 + " = " + mod);
 
 
 //{ autofold
