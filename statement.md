@@ -74,7 +74,18 @@ System.out.println(input1 + " * " + input2 + " = " + time);
 System.out.println(input1 + " / " + input2 + " = " + div);
 System.out.println(input1 + " % " + input2 + " = " + mod);
 
+//7. Takes a number as input and prints its multiplication table upto 10
 
+int num = 8;
+
+
+for( int a = 0; a < 11; a++)
+{
+    int total = num * a;
+    
+    System.out.println( "7." + num + " * " + a + " = " + total);
+
+}
 //{ autofold
 }
 
